@@ -1,0 +1,7 @@
+//how to commit and push in your git
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pazhukh/LionCup.git
+git push -u origin master
