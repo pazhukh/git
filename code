@@ -5,3 +5,8 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/pazhukh/LionCup.git
 git push -u origin master
+
+
+//додати свої дані до git
+git config user.name "someone"
+git config user.email "someone@someplace.com"
