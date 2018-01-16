@@ -28,6 +28,5 @@ git add *.html
 //вертаємо з git add index.html
 git rm --cached index.html
 
-
-git pull
-git clone
+//пушим в existing repository з локального компа
+git push origin master --force
