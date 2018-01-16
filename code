@@ -1,6 +1,17 @@
 //як залити в чужий репозиторій
 https://toster.ru/q/313349
 
+git init
+//копіюєм існуючий репозиторій з гіта на компютер
+git pull https://github.com/pazhukh/LionCup.git
+git remote add origin https://github.com/pazhukh/LionCup.git
+git config user.name "name"
+git config user.email "mail"
+git status
+git add .
+git commit -m "commit comment"
+git push origin master
+
 
 **********************************************************************************************
 
