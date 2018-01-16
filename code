@@ -10,3 +10,24 @@ git push -u origin master
 //додати свої дані до git
 git config user.name "someone"
 git config user.email "someone@someplace.com"
+
+
+git config --global user.name "Pazhukh"
+git config --global user.email "pazhykh@gmail.com"
+
+
+//додати свої дані до git
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+
+**********************************************************************************************
+
+//додаємо всі html файли
+git add *.html
+
+//вертаємо з git add index.html
+git rm --cached index.html
+
+
+git pull
+git clone
