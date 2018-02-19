@@ -96,6 +96,7 @@ git checkout new
 
 //зливаємо гілки
 git merge new_branch
+git push origin master
 
 //показує з якими гілками був злитий
 git branch merged
