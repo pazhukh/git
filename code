@@ -93,3 +93,9 @@ git branch new
 
 //переключаємося на іншу гілку
 git checkout new
+
+//зливаємо гілки
+git merge new_branch
+
+//показує з якими гілками був злитий
+git branch merged
