@@ -37,7 +37,11 @@ git config --global user.email "pazhykh@gmail.com"
 git config user.name "someone"
 git config user.email "someone@someplace.com"
 
+--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
 **********************************************************************************************
+Функції git
+**********************************************************************************************
+--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
 
 //додаємо всі html файли
 git add *.html
@@ -45,6 +49,7 @@ git add *.html
 //вертаємо з git add index.html (забираємо файли з staging area)
 git rm --cached index.html
 git reset file-name
+git reset  (всі файли верне)
 
 //пушим в existing repository з локального компа
 git push origin master --force
