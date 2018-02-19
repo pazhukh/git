@@ -100,3 +100,6 @@ git push origin master
 
 //показує з якими гілками був злитий
 git branch merged
+
+//видаляємо гілку
+git branch -d name_of_branch
