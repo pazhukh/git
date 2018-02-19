@@ -42,8 +42,9 @@ git config user.email "someone@someplace.com"
 //додаємо всі html файли
 git add *.html
 
-//вертаємо з git add index.html
+//вертаємо з git add index.html (забираємо файли з staging area)
 git rm --cached index.html
+git reset file-name
 
 //пушим в existing repository з локального компа
 git push origin master --force
