@@ -52,6 +52,9 @@ git add .
 git add A
 git add --all
 
+//дивимося на зміни
+git diff
+
 //вертаємо з git add index.html (забираємо файли з staging area)
 git rm --cached index.html
 git reset file-name
