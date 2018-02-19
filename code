@@ -43,8 +43,11 @@ git config user.email "someone@someplace.com"
 **********************************************************************************************
 --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
 
-//додаємо всі html файли
-git add *.html
+//додаємо файли в staging area
+git add *.html - всі html файли
+git add .
+git add A
+git add --all
 
 //вертаємо з git add index.html (забираємо файли з staging area)
 git rm --cached index.html
