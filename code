@@ -47,3 +47,17 @@ git rm --cached index.html
 
 //пушим в existing repository з локального компа
 git push origin master --force
+
+
+**********************************************************************************************
+Bitbucket
+**********************************************************************************************
+
+//клонуємо створений репозиторій з Bitbucket
+git clone https://pazhukh@bitbucket.org/pazhukh/first-repository.git
+
+//стандартні дії робимо status, add, commit, push
+
+//якщо не пушить тоді...
+ cd first-repository (назва репозиторія)
+ 
