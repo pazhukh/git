@@ -100,6 +100,7 @@ git branch new
 git checkout new
 
 //зливаємо гілки
+//ми повинні бути на цій гілці, в яку будемо зливати new_branch
 git merge new_branch
 git push origin master
 
