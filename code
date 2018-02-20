@@ -61,6 +61,11 @@ git reset file-name
 git reset  (всі файли верне)
 
 //пушим в existing repository з локального компа
+//перед кожним push робимо pull щоб мати останні зміни локально, якщо ще хтось працює з твоєю гілкою
+git pull origin master
+git push origin master
+
+
 git push origin master --force
 
 
