@@ -101,7 +101,7 @@ git branch
 //показує всі гілки, локальні + репозиторійні
 git branch --all
 
-//стягує всі бренчі з репозиторія без файлів
+//стягує всі бренчі з репозиторія
 git fatch
 
 //створюємо нову гілку
@@ -120,6 +120,8 @@ git branch merged
 
 //видаляємо гілку локально
 git branch -d name_of_branch
+//видаляємо всі гілки локально окрім мастера
+git branch | grep -ve " master$" | xargs git branch -D
 
 //видаляємо гілку з репозиторія
 git push origin --delete branch_name
