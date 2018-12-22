@@ -1,3 +1,11 @@
+//коли створюємо новий репозиторій нам пропонують так робити
+…or create a new repository on the command line
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pazhukh/heroku-nodeJS-app.git
+git push -u origin master
+
 //як залити в чужий репозиторій
 https://toster.ru/q/313349
 
