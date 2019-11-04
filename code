@@ -142,6 +142,9 @@ Commits
 **********************************************************************************************
 --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
 
-//delete last commit
+//delete last commit locally
 git reset HEAD~1  => git checkout *fileName* //видалити зміни з файла
 
+//delete remote commit
+git reset --hard before_commit_hash
+git push origin HEAD --force
