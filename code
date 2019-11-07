@@ -148,3 +148,6 @@ git reset HEAD~1  => git checkout *fileName* //видалити зміни з ф
 //delete remote commit
 git reset --hard before_commit_hash
 git push origin HEAD --force
+
+//remove whitespaces
+git diff -U0 -w | git apply --cached --ignore-whitespace --unidiff-zero -
