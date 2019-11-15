@@ -146,7 +146,8 @@ Commits
 git reset HEAD~1  => git checkout *fileName* //видалити зміни з файла
 
 //undo changes after last commit
-git reset HEAD --hard
+git reset HEAD --hard 
+git clean -fd
 
 //delete remote commit
 git reset --hard before_commit_hash
