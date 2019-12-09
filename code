@@ -157,3 +157,11 @@ git push origin HEAD --force
 
 //remove whitespaces
 git diff -U0 -w | git apply --cached --ignore-whitespace --unidiff-zero -
+
+//Зробити коміт замість останнього коміту
+git add .
+git commit --amend
+потім crtl + c 
+потім  :qa!  <enter>
+git push -f
+
