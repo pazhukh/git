@@ -22,6 +22,10 @@ git add .
 git commit -m "commit comment"
 git push origin master
 
+змінити пароль 
+git config --global --unset user.password
+потім запушити шось на origin і воно запитає про логін і пароль
+
 
 **********************************************************************************************
 
