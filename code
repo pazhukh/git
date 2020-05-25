@@ -169,3 +169,6 @@ git commit --amend
 потім  :qa!  <enter>
 git push -f
 
+//rename last commit/change commit name
+git commit --amend -m "blablabla"
+
