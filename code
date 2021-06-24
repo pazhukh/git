@@ -1,5 +1,11 @@
 https://docs.google.com/document/d/1UupI9fDLOIVAHlJHq4tdEOTbV9kDmg-aeKNDn8fawtA/edit
 
+Login to git from DEsctop CLI
+https://gist.github.com/ateucher/4634038875263d10fb4817e5ad3d332f
+
+// get Token
+https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
 //коли створюємо новий репозиторій нам пропонують так робити
 …or create a new repository on the command line
 git init
